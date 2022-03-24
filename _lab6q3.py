@@ -1,5 +1,4 @@
-input_str = input("Please enter a phrase: ");
-input_str = input_str.lower();
+input_str = input("Please enter a phrase: ").lower();
 final_str = input_str + " is{0} a sentence length palindrome";
 
 test_str = "";
