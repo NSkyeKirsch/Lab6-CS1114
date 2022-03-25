@@ -6,6 +6,7 @@ test_str = "";
 for char in input_str:
     if(char.isalpha()):
         test_str += char;
+#or use: if char not in ":,'.":
 
 is_palindrome = True;
 #print(test_str);
